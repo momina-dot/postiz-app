@@ -10,6 +10,7 @@ export class AgentRun {
     describe: 'Run the agent',
   })
   async agentRun() {
-    console.log(await this._agentGraphService.createGraph('hello', true));
+    // TODO: update to use AgentGraphService.start(orgId, body) with proper arguments
+    console.log('Agent run command placeholder');
   }
 }
